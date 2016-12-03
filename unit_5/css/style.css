@@ -30,6 +30,14 @@ ul li {
   border: 5px solid blue;
 }
 
+.product-tile {
+  width: 20%;
+}
+
+.product-image {
+  width: 100%;
+}
+
 header {
     background-color: #FFED74;
     border: 1px black solid;
@@ -40,6 +48,7 @@ nav {
     background-color: #E8C66A;
     border: 1px black solid;
     padding: 20px;
+    width: 20%;
 }
 
 div, section {
@@ -58,4 +67,12 @@ footer {
     background-color: #FF957E;
     border: 1px black solid;
     padding: 20px;
+}
+
+header > section {
+  width: 70%;
+}
+
+input {
+  width: 90%;
 }
