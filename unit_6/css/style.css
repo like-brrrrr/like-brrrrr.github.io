@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Eczar|Gentium+Basic');
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+body {
+  color: #333;
+  background-color: #fff;
+  font-family: 'Gentium Basic', serif;
+}
+
+h1 {
+  font-family: 'Eczar', serif;
+  text-transform: uppercase;
+  color: #394040;
+  font-size: 3em;
+  padding: 20px;
+}
+
+.logo {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+}
+
+.wrapper {
+  border: 5px solid blue;
+}
+
+
+.product-tile {
+  float: left;
+  width: 20%;
+  margin-left: 1.25em;
+}
+
+.product-image {
+  width: 100%;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    float: left;
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+    width: 20%;
+}
+
+nav > a {
+  padding: 5px;
+  margin: 5px;
+}
+
+div, section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+header > div {
+  float: left;
+  width: 70%;
+}
+
+header > nav {
+  float: right;
+}
+
+footer > nav {
+  margin-left: 2em;
+  width: 27%;
+}
+
+footer > nav > a {
+  display: block;
+}
+
+input {
+  width: 90%;
+}
